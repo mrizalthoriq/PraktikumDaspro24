@@ -10,7 +10,7 @@ public class StudiKasus2_24 {
         nama = sc.nextLine();
         System.out.print("Jenis kegiatan (BELMAWA/BAKORMA/MANDIRI/PKM/LAINNYA): ");
         jenisKegiatan = sc.nextLine().trim().toUpperCase();
-        System.out.print("Jumlah jumlah dokumen: ");
+        System.out.print("Jumlah jumlah dokumen 0-4: ");
         jmlhDokumen = sc.nextInt();
         
         if (jenisKegiatan.equals("BELMAWA")||jenisKegiatan.equals("BAKORAMA")||jenisKegiatan.equals("MANDIRI")) {
